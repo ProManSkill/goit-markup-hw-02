@@ -51,7 +51,9 @@ text-align: center;
 color: #ffffff;
 }
 
-.button-one{font-weight: 500;
+.button-one{
+cursor: pointer;
+font-weight: 500;
 background-color: var(--accent-text-color);
 color:var(--button-text-hover);}
 
@@ -59,6 +61,7 @@ color:var(--button-text-hover);}
 color: var(--accent-text-color);}
 .button:hover,
 .button:focus {
+    cursor: pointer;
     background-color:var(--accent-text-color);
     color: var(--button-text-hover);}
 
