@@ -1,0 +1,113 @@
+:root{
+    --primary-text-color:#2E2F42;
+    --subtitle-text-color:#434455;
+    --accent-text-color:#4D5AE5;
+    --second-background-color:#2e2f42;
+    --footer-logo-color:#F4F4FD;
+    --footer-text-color:#E7E9FC;
+--button-text-hover:#ffffff;}
+
+body {
+background-color: #ffffff;
+color: #2E2F42;
+font-family:Roboto, sans-serif;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;}
+
+ .list { list-style: none;}
+
+
+a { text-decoration: none;}
+
+.logo {font-family: Raleway, sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.3;
+letter-spacing: 0.03em;}
+
+.logoweb {color:var(--accent-text-color);}
+.logostudio {color: #2E2F42;}
+
+.site-nav .link {
+color:var(--primary-text-color);
+font-weight: 500;}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {color:var(--accent-text-color);}
+
+.address .address-link {
+font-style: normal;
+font-weight: 400;
+color:var(--subtitle-text-color) ;}
+
+/* hero */
+.hero {background-color:var(--second-background-color);}
+.hero-title{
+ font-weight: 700;
+font-size: 56px;
+line-height: 60px;
+text-align: center;
+color: #ffffff;
+}
+
+.button-one{font-weight: 500;
+background-color: var(--accent-text-color);
+color:var(--button-text-hover);}
+
+.button {background-color: var(--footer-logo-color);
+color: var(--accent-text-color);}
+.button:hover,
+.button:focus {
+    background-color:var(--accent-text-color);
+    color: var(--button-text-hover);}
+
+.section-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+text-align: center;
+color:var(--primary-text-color);}
+
+.feature-list .title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+color:var(--primary-text-color);}
+
+.feature-list .subtitle{
+font-weight: 400;
+color:var(--subtitle-text-color)}
+
+.team .title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+color: var(--primary-text-color);}
+
+.team .subtitle{
+font-weight: 400;
+color: var(--subtitle-text-color);}
+
+.footer {background-color:var(--second-background-color);}
+
+.footer-logo{font-family: Raleway,sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+letter-spacing: 0.03em}
+
+.footer-logo-web {color:var(--accent-text-color);}
+.footer-logo-studio {color:var(--footer-logo-color) ;}
+.footer-text {
+font-weight: 400;
+color: var(--footer-text-color);}
+
+.content-list .title{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+}
+.content-list .subtitle{
+font-weight: 400;
+color: var(--subtitle-text-color);}
