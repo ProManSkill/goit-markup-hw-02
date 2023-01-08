@@ -13,7 +13,6 @@ color: #2E2F42;
 font-family:Roboto, sans-serif;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.02em;
 }
 
  .list { list-style: none;}
@@ -33,6 +32,7 @@ text-decoration: none;}
 .site-nav .link {
 color:var(--primary-text-color);
 font-weight: 500;
+line-height: 1.5;
 text-decoration: none;}
 
 .site-nav .link:hover, 
@@ -41,7 +41,7 @@ text-decoration: none;}
 .address-link {
 text-decoration: none;
 font-style: normal;
-font-weight: 400;
+line-height: 1.5;
 color:var(--subtitle-text-color) ;}
 
 .address-link:hover,
@@ -50,7 +50,6 @@ color:var(--subtitle-text-color) ;}
 /* hero */
 .hero {background-color:var(--second-background-color);}
 .hero-title{
- font-weight: 700;
 font-size: 56px;
 line-height: 60px;
 text-align: center;
@@ -60,11 +59,18 @@ color: #ffffff;
 .button-one{
 cursor: pointer;
 font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
 background-color: var(--accent-text-color);
 color:var(--button-text-hover);}
 
-.button {background-color: var(--footer-logo-color);
-color: var(--accent-text-color);}
+.button {
+background-color: var(--footer-logo-color);
+color: var(--accent-text-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;}
+
 .button:hover,
 .button:focus {
     cursor: pointer;
@@ -72,7 +78,6 @@ color: var(--accent-text-color);}
     color: var(--button-text-hover);}
 
 .section-title{
-font-weight: 700;
 font-size: 36px;
 line-height: 1.1;
 text-align: center;
@@ -85,8 +90,8 @@ line-height: 1.2;
 color:var(--primary-text-color);}
 
 .feature-list .subtitle{
-font-weight: 400;
-color:var(--subtitle-text-color)}
+color:var(--subtitle-text-color);
+line-height: 1.5;}
 
 .team .title {
 font-weight: 500;
@@ -95,8 +100,8 @@ line-height: 1.2;
 color: var(--primary-text-color);}
 
 .team .subtitle{
-font-weight: 400;
-color: var(--subtitle-text-color);}
+color: var(--subtitle-text-color);
+line-height: 1.5;}
 
 .footer {background-color:var(--second-background-color);}
 
@@ -111,8 +116,8 @@ text-decoration: none;
 .footer-logo-web {color:var(--accent-text-color);}
 .footer-logo-studio {color:var(--footer-logo-color) ;}
 .footer-text {
-font-weight: 400;
-color: var(--footer-text-color);}
+color: var(--footer-text-color);
+line-height: 1.5;}
 
 .content-list .title{
 font-weight: 500;
@@ -120,5 +125,6 @@ font-size: 20px;
 line-height: 1.2;
 }
 .content-list .subtitle{
-font-weight: 400;
 color: var(--subtitle-text-color);}
+
+.ghoust {display: none;}
